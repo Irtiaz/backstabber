@@ -3,8 +3,8 @@ class Player {
     this.length = 0.045 * width;
     this.breadth = this.length * playerIdleSprite.sprites[0].height / playerIdleSprite.sprites[0].width;
 
-    this.bulletCount = 10;
-    this.lives = 5;
+    this.bulletCount = 15;
+    this.lives = 10;
 
     this.position = createVector(width / 2, height / 2);
 
