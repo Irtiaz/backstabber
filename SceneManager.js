@@ -20,9 +20,10 @@ class SceneManager {
 
     this.gameScene.setup = () => {
       time = 0;
-      bullets = []
+      bullets = [];
 
       gameOver = false;
+      redZoneRadius = fieldRadius * 0.25;
       redZoneBlinking = false;
       redZoneBlinkTime = 0;
       score = 0;
